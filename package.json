@@ -1,0 +1,34 @@
+{
+  "name": "interview_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "fs-extra": "^7.0.1",
+    "mongoose": "^5.4.19",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8",
+    "winston": "^3.2.1"
+  },
+  "scripts": {
+    "start": "npm run start-app && npm run start-react-scripts",
+    "start-app": "node ./src/server/app.js &",
+    "start-react-scripts": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
